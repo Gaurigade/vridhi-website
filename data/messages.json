@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "conversationId": "C001",
+    "sender": "buyer",
+    "senderName": "Rajesh Traders",
+    "recipient": "S001",
+    "text": "Hi, is the rice still available?",
+    "timestamp": "2024-01-15T10:30:00",
+    "read": true
+  },
+  {
+    "id": 2,
+    "conversationId": "C001",
+    "sender": "seller",
+    "senderName": "Ramesh Farm",
+    "recipient": "W001",
+    "text": "Yes, we have 500kg in stock.",
+    "timestamp": "2024-01-15T10:35:00",
+    "read": true
+  },
+  {
+    "id": 3,
+    "conversationId": "C001",
+    "sender": "buyer",
+    "senderName": "Rajesh Traders",
+    "recipient": "S001",
+    "text": "Great! Can we discuss the price?",
+    "timestamp": "2024-01-15T10:40:00",
+    "read": true
+  },
+  {
+    "id": 4,
+    "conversationId": "C002",
+    "sender": "wholesaler",
+    "senderName": "Vikram Traders",
+    "recipient": "S002",
+    "text": "I'm interested in your organic wheat",
+    "timestamp": "2024-01-15T11:00:00",
+    "read": false
+  }
+]
