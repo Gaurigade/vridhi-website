@@ -37,7 +37,13 @@ export function PriceGraphs({ productType }: { productType: string }) {
             <YAxis style={{ fontSize: 12 }} />
             <Tooltip />
             <Bar dataKey="price" fill="#0B8457" radius={[8, 8, 0, 0]}>
-              <LabelList dataKey="price" position="top" style={{ fontSize: 14, fontWeight: 'bold' }} formatter={(value: number) => `₹${value}`} />
+              <LabelList
+                 dataKey="price"
+                 position="top"
+                 style={{ fontSize: 14, fontWeight: 'bold' }}
+                 formatter={(value) => (value != null ? `₹${value}` : '')}
+               />
+
             </Bar>
           </BarChart>
         </ResponsiveContainer>
