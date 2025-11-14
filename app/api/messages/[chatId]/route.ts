@@ -5,12 +5,11 @@ const messages: any[] = []
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ chatId: string }> } // Added Promise wrapper for params per Next.js 16 requirements
+  { params }: { params: { chatId: string } }
 ) {
   try {
-    const { chatId } = await params
-    const chatIdNum = parseInt(chatId)
-    const chatMessages = messages.filter(m => m.chatId === chatIdNum)
+    const chatId = parseInt(params.chatId)
+    const chatMessages = messages.filter(m => m.chatId === chatId)
 
     return NextResponse.json(chatMessages)
 
