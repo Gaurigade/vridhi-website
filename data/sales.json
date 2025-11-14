@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "sellerId": "S001",
+    "productName": "Rice",
+    "quantity": 100,
+    "unit": "kg",
+    "price": 5000,
+    "buyer": "ABC Traders",
+    "date": "2024-01-15",
+    "status": "Completed"
+  },
+  {
+    "id": 2,
+    "sellerId": "S002",
+    "productName": "Wheat",
+    "quantity": 150,
+    "unit": "kg",
+    "price": 6750,
+    "buyer": "XYZ Wholesale",
+    "date": "2024-01-14",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "sellerId": "S001",
+    "productName": "Vegetables",
+    "quantity": 50,
+    "unit": "kg",
+    "price": 1500,
+    "buyer": "Local Market",
+    "date": "2024-01-13",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "sellerId": "S003",
+    "productName": "Tomatoes",
+    "quantity": 75,
+    "unit": "kg",
+    "price": 2250,
+    "buyer": "Fresh Mart",
+    "date": "2024-01-12",
+    "status": "Completed"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "priceTrends": [
+    {
+      "month": "Jan",
+      "rice": 45,
+      "wheat": 38,
+      "vegetables": 25,
+      "pulses": 70
+    },
+    {
+      "month": "Feb",
+      "rice": 48,
+      "wheat": 40,
+      "vegetables": 28,
+      "pulses": 72
+    },
+    {
+      "month": "Mar",
+      "rice": 52,
+      "wheat": 42,
+      "vegetables": 30,
+      "pulses": 75
+    },
+    {
+      "month": "Apr",
+      "rice": 50,
+      "wheat": 41,
+      "vegetables": 32,
+      "pulses": 73
+    },
+    {
+      "month": "May",
+      "rice": 55,
+      "wheat": 45,
+      "vegetables": 35,
+      "pulses": 78
+    },
+    {
+      "month": "Jun",
+      "rice": 58,
+      "wheat": 47,
+      "vegetables": 38,
+      "pulses": 80
+    }
+  ],
+  "demandData": [
+    {
+      "product": "Rice",
+      "demand": 85
+    },
+    {
+      "product": "Wheat",
+      "demand": 70
+    },
+    {
+      "product": "Vegetables",
+      "demand": 65
+    },
+    {
+      "product": "Pulses",
+      "demand": 55
+    },
+    {
+      "product": "Fruits",
+      "demand": 48
+    }
+  ],
+  "regionalProduction": [
+    {
+      "region": "North",
+      "production": 85
+    },
+    {
+      "region": "South",
+      "production": 70
+    },
+    {
+      "region": "East",
+      "production": 65
+    },
+    {
+      "region": "West",
+      "production": 75
+    },
+    {
+      "region": "Central",
+      "production": 60
+    }
+  ]
+}

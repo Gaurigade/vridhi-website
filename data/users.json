@@ -1,0 +1,78 @@
+[
+  {
+    "id": "S001",
+    "type": "seller",
+    "name": "Ramesh Kumar",
+    "email": "ramesh@farm.com",
+    "phone": "+91 98765 11111",
+    "address": "Village Road, Punjab",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "pincode": "141001",
+    "farmSize": "25 acres",
+    "crops": "Rice, Wheat, Pulses",
+    "registeredDate": "2023-01-15"
+  },
+  {
+    "id": "S002",
+    "type": "seller",
+    "name": "Suresh Patel",
+    "email": "suresh@agriculture.com",
+    "phone": "+91 98765 22222",
+    "address": "Farm House, Haryana",
+    "city": "Karnal",
+    "state": "Haryana",
+    "pincode": "132001",
+    "farmSize": "40 acres",
+    "crops": "Wheat, Vegetables",
+    "registeredDate": "2023-02-20"
+  },
+  {
+    "id": "W001",
+    "type": "wholesaler",
+    "name": "Rajesh Wholesalers",
+    "email": "rajesh@wholesale.com",
+    "phone": "+91 98765 33333",
+    "businessName": "Rajesh Trading Co.",
+    "businessAddress": "Market Street, Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110001",
+    "gstNumber": "07AAAAA0000A1Z5",
+    "productsInterested": "Rice, Wheat, Pulses",
+    "registeredDate": "2023-03-10"
+  },
+  {
+    "id": "W002",
+    "type": "wholesaler",
+    "name": "Vikram Traders",
+    "email": "vikram@traders.com",
+    "phone": "+91 98765 44444",
+    "businessName": "Vikram Export House",
+    "businessAddress": "Industrial Area, Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400001",
+    "gstNumber": "27AAAAA0000B2Z6",
+    "productsInterested": "Spices, Vegetables",
+    "registeredDate": "2023-04-05"
+  },
+  {
+    "id": "V001",
+    "type": "visitor",
+    "name": "Priya Sharma",
+    "email": "priya@visitor.com",
+    "phone": "+91 98765 55555",
+    "interest": "Market Research",
+    "registeredDate": "2023-05-15"
+  },
+  {
+    "id": "V002",
+    "type": "visitor",
+    "name": "Amit Verma",
+    "email": "amit@visitor.com",
+    "phone": "+91 98765 66666",
+    "interest": "Price Trends",
+    "registeredDate": "2023-06-20"
+  }
+]
